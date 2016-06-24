@@ -1,0 +1,11 @@
+<launch>
+  <!--<include file="$(find cordial_tablet)/launch/websocket.launch" />-->
+  <include file="$(find cordial_dragonbot)/launch/cordial_dragonbot.launch">
+    <arg name="robot_name" value="DB1"/>
+    <arg name="serial_port" value="/dev/ttyACM0"/>
+    <arg name="use_tts" value="true"/>
+    <arg name="delay" value="0.0"/>
+    <arg name="phrase_file" value="$(find game_to_cordial)/speech/phrases.yaml"/>
+    <arg name="behavior_file" value="$(find cordial_dragonbot)/scripts/KF_behaviors_list.json"/>
+  </include>
+</launch>

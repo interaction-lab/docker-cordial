@@ -1,0 +1,18 @@
+<package>
+  <description brief="game_to_cordial">
+
+     game_to_cordial
+
+  </description>
+  <author>Akshat Agarwak</author>
+  <license>MIT</license>
+  <review status="unreviewed" notes=""/>
+  <depend package="rospy"/>
+  <depend package="cordial_core"/>
+  <depend package="cordial_tablet"/>
+  <depend package="cordial_sound"/>
+  <depend package="cordial_dragonbot"/>
+  
+</package>
+
+

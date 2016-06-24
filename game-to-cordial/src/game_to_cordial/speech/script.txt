@@ -1,0 +1,47 @@
+[MoveByName_Intro_EN] <wakeup> I want to bring moon rocks home to show my friends. Will you help me pack some?
+[MoveByName_1_EN] Put 1 moon rock into the box
+[MoveByName_2_EN] Put 2 moon rocks into the box
+[MoveByName_3_EN] Put 3 moon rocks into the box
+[MoveByName_4_EN] Put 4 moon rocks into the box
+[MoveByName_5_EN] Put 5 moon rocks into the box
+[MoveByName_6_EN] Put 6 moon rocks into the box
+[MoveByName_7_EN] Put 7 moon rocks into the box
+[MoveByName_8_EN] Put 8 moon rocks into the box
+[MoveByName_9_EN] Put 9 moon rocks into the box
+[MoveByName_10_EN] Put 10 moon rocks into the box
+[MoveByAmount_Intro_EN] <wakeup> I want to bring moon rocks home to show my friends. Will you help me pack some?
+[MoveByAmount_all_EN] Put all the moon rocks into the box, so that I can show my friends at home.
+[MoveByAmount_justOne_EN] Put just one moon rock into the box, so that I can show my friends at home.
+[MoveByAmount_most_EN] Put most of the moon rocks into the box, so that I can show my friends at home.
+[CompareSets_Intro_EN] I need to show my spaceship where to go. <question_face> Will yooou help me navigate? 
+[CompareSets_less_EN] Choose the galaxy that has less stars.
+[CompareSets_more_EN] Choose the galaxy that has more stars.
+[Congrat_1_EN] <yay> Grrreat job!
+[Congrat_2_EN] <yay> Grrreat work!
+[Congrat_3_EN] <yay> Awesome!
+[Congrat_4_EN] <yay> Nice!
+[Congrat_5_EN] <yay> Excellent!
+[Congrat_6_EN] <yay> Fantastic!
+[Finish_EN] <happy> Thanks for helping me! Now I can go home to my friends! I can’t wait to tell them about my new friends on Earth!
+[too-many-1_EN] <question_face> Is that too many?
+[too-many-2_EN] <sad> Hmm...I think that's too many.
+[too-many-3_EN] <sad> That's more than we need.
+[too-many-com_EN] We only need 
+[too-few-1_EN] <question_face> Do we need more?
+[too-few-2_EN] <sad> Hmm...I think we need more.
+[too-few-3_EN] <sad> We don't have enough.
+[too-few-com_EN] We need 
+[together-1_EN]Let's do it together!
+[together-2_EN]Count them out loud with me.
+[something-else_EN]Let's try something else.
+[is-right-1_EN]<question_face>Is that right?...
+[is-number-1_EN]<question_face>Is that number 1?
+[is-number-2_EN]<question_face>Is that number 2?
+[is-number-3_EN]<question_face>Is that number 3?
+[is-number-4_EN]<question_face>Is that number 4?
+[is-number-5_EN]<question_face>Is that number 5?
+[is-number-6_EN]<question_face>Is that number 6?
+[is-number-7_EN]<question_face>Is that number 7?
+[is-number-8_EN]<question_face>Is that number 8?
+[is-number-9_EN]<question_face>Is that number 9?
+[is-number-10_EN]<question_face>Is that number 10?

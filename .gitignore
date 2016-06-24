@@ -1,1 +1,4 @@
 /cordial/cordial
+/game-to-cordial/src/sar_robot_command_msgs
+/game-to-cordial/src/sar_robot_command_sender
+/game-to-cordial/src/sar_robot_translation

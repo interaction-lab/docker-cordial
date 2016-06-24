@@ -1,0 +1,68 @@
+version: '2'
+services:
+
+    core:
+        image: agakshat/cordial-base
+        container_name: core
+        command: 
+            - roscore
+        environment:
+            - "ROS_HOSTNAME=core"
+
+    launcher:
+        image: agakshat/game-to-cordial
+        container_name: launcher
+        command: /game-to-cordial-entrypoint-launch.sh
+        privileged: true
+        environment:
+            - "ROS_HOSTNAME=launcher"
+            - "ROS_MASTER_URI=http://core:11311"
+        devices: ["/dev/ttyACM0:/dev/ttyACM0","/dev/snd:/dev/snd"]
+        depends_on:
+            - core
+        restart: on-failure
+
+    rosbridge-websocket:
+        image: agakshat/rosbridge-server
+        container_name: rosbridge-websocket
+        ports: ["9090:9090"]
+        environment:
+            - "ROS_HOSTNAME=rosbridge-websocket"
+            - "ROS_MASTER_URI=http://core:11311"
+        depends_on:
+            - core
+        restart: on-failure
+
+    games:
+        image: agakshat/expeditions-games
+        container_name: games
+        ports: ["8080:80"]
+        environment:
+            - "ROS_HOSTNAME=games"
+            - "ROS_MASTER_URI=http://core:11311"
+        depends_on:
+            - core
+            - rosbridge-websocket
+
+    cordial-face:
+        image: agakshat/cordial-face
+        container_name: cordial-face
+        ports: ["8000:80"]
+        devices: ["/dev/ttyACM0:/dev/ttyACM0"]
+        environment:
+            - "ROS_HOSTNAME=cordial-face"
+            - "ROS_MASTER_URI=http://core:11311"
+        depends_on:
+            - core
+            - rosbridge-websocket
+
+    game-cordial-interface:
+        image: agakshat/game-to-cordial
+        container_name: game-cordial-interface
+        devices: ["/dev/ttyACM0:/dev/ttyACM0"]
+        command: /game-to-cordial-entrypoint-run.sh
+        environment:
+            - "ROS_HOSTNAME=game-cordial-interface"
+            - "ROS_MASTER_URI=http://core:11311"
+        depends_on:
+            - launcher

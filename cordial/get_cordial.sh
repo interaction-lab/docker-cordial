@@ -1,0 +1,1 @@
+git clone -b develop git@robotics.usc.edu:sar-expeditions/usc-sar-expeditions.git

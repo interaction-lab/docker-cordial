@@ -17,7 +17,7 @@ services:
         environment:
             - "ROS_HOSTNAME=launcher"
             - "ROS_MASTER_URI=http://core:11311"
-        devices: ["/dev/ttyACM0:/dev/ttyACM0","/dev/snd:/dev/snd"]
+        devices: ["/dev/snd:/dev/snd"]
         depends_on:
             - core
         restart: on-failure
@@ -48,7 +48,6 @@ services:
         image: agakshat/cordial-face
         container_name: cordial-face
         ports: ["9000:80"]
-        devices: ["/dev/ttyACM0:/dev/ttyACM0"]
         environment:
             - "ROS_HOSTNAME=cordial-face"
             - "ROS_MASTER_URI=http://core:11311"
@@ -59,15 +58,9 @@ services:
     game-cordial-interface:
         image: agakshat/game-to-cordial
         container_name: game-cordial-interface
-        devices: ["/dev/ttyACM0:/dev/ttyACM0"]
         command: /game-to-cordial-entrypoint-run.sh
         environment:
             - "ROS_HOSTNAME=game-cordial-interface"
             - "ROS_MASTER_URI=http://core:11311"
         depends_on:
             - launcher
-
-    reverse-proxy:
-        image: agakshat/reverse-proxy
-        container_name: reverse-proxy
-        ports: ["80:80"]

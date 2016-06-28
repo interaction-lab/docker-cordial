@@ -16,6 +16,34 @@
 [CompareSets_Intro_EN] I need to show my spaceship where to go. <question_face> Will yooou help me navigate? 
 [CompareSets_less_EN] Choose the galaxy that has less stars.
 [CompareSets_more_EN] Choose the galaxy that has more stars.
+[HalfSet_Intro_EN] <wakeup> Meet Uki and Yana, they’re my space pets! They eat stardust. Will you help me feed them? Feed Uki and Yana the same amount of stardust.
+[Uki-more_EN]Uki has more than Yana. Feed them the same amount.
+[Yana-more_EN]Yana has more than Uki. Feed them the same amount.
+[SelectSymbolByName_Intro_EN]<wakeup> I need to show my spaceship where to go. <question_face>Will yooou help me navigate?
+[SelectSymbolByName_1_EN]Choose the planet with the number 1
+[SelectSymbolByName_2_EN]Choose the planet with the number 2
+[SelectSymbolByName_3_EN]Choose the planet with the number 3
+[SelectSymbolByName_4_EN]Choose the planet with the number 4
+[SelectSymbolByName_5_EN]Choose the planet with the number 5
+[SelectSymbolByName_6_EN]Choose the planet with the number 6
+[SelectSymbolByName_7_EN]Choose the planet with the number 7
+[SelectSymbolByName_8_EN]Choose the planet with the number 8
+[SelectSymbolByName_9_EN]Choose the planet with the number 9
+[SelectSymbolByName_10_EN]Choose the planet with the number 10
+[MoveBySymbol_Intro-1_EN]It's a loong trip home! So my spaceship needs to be fully charged!
+[MoveBySymbol_Intro-2_EN]What number do you see?
+[MoveBySymbol_Intro-3_EN]Put that many energy crystals into the battery pack to charge the spaceship.
+[Count_Intro_EN]My space pets need to go home too. Let’s make sure we get all of them onboard.
+[Count_1_EN]Move them into the spaceship in order, from 1 to 1. Count them out with me!
+[Count_2_EN]Move them into the spaceship in order, from 1 to 2. Count them out with me!
+[Count_3_EN]Move them into the spaceship in order, from 1 to 3. Count them out with me!
+[Count_4_EN]Move them into the spaceship in order, from 1 to 4. Count them out with me!
+[Count_5_EN]Move them into the spaceship in order, from 1 to 5. Count them out with me!
+[Count_6_EN]Move them into the spaceship in order, from 1 to 6. Count them out with me!
+[Count_7_EN]Move them into the spaceship in order, from 1 to 7. Count them out with me!
+[Count_8_EN]Move them into the spaceship in order, from 1 to 8. Count them out with me!
+[Count_9_EN]Move them into the spaceship in order, from 1 to 9. Count them out with me!
+[Count_10_EN]Move them into the spaceship in order, from 1 to 10. Count them out with me!
 [Congrat_1_EN] <yay> Grrreat job!
 [Congrat_2_EN] <yay> Grrreat work!
 [Congrat_3_EN] <yay> Awesome!
@@ -23,11 +51,11 @@
 [Congrat_5_EN] <yay> Excellent!
 [Congrat_6_EN] <yay> Fantastic!
 [Finish_EN] <happy> Thanks for helping me! Now I can go home to my friends! I can’t wait to tell them about my new friends on Earth!
-[too-many-1_EN] <question_face> Is that too many?
+[too-many-1_EN] <sad> Is that too many?
 [too-many-2_EN] <sad> Hmm...I think that's too many.
 [too-many-3_EN] <sad> That's more than we need.
 [too-many-com_EN] We only need 
-[too-few-1_EN] <question_face> Do we need more?
+[too-few-1_EN] <sad> Do we need more?
 [too-few-2_EN] <sad> Hmm...I think we need more.
 [too-few-3_EN] <sad> We don't have enough.
 [too-few-com_EN] We need 
@@ -35,6 +63,16 @@
 [together-2_EN]Count them out loud with me.
 [something-else_EN]Let's try something else.
 [is-right-1_EN]<question_face>Is that right?...
+[oops-1_EN]Oops! Number 1 is next...
+[oops-2_EN]Oops! Number 2 is next...
+[oops-3_EN]Oops! Number 3 is next...
+[oops-4_EN]Oops! Number 4 is next...
+[oops-5_EN]Oops! Number 5 is next...
+[oops-6_EN]Oops! Number 6 is next...
+[oops-7_EN]Oops! Number 7 is next...
+[oops-8_EN]Oops! Number 8 is next...
+[oops-9_EN]Oops! Number 9 is next...
+[oops-10_EN]Oops! Number 10 is next...
 [is-number-1_EN]<question_face>Is that number 1?
 [is-number-2_EN]<question_face>Is that number 2?
 [is-number-3_EN]<question_face>Is that number 3?

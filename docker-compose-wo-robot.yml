@@ -64,3 +64,8 @@ services:
             - "ROS_MASTER_URI=http://core:11311"
         depends_on:
             - launcher
+
+    reverse-proxy:
+        image: agakshat/reverse-proxy
+        container_name: reverse-proxy
+        ports: ["80:80"]
